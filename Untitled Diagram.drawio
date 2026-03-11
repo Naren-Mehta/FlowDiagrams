@@ -1,9 +1,146 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="Page-1" id="y_jYjJudh1rPxVWvMVPO">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Nfo_Sdc03utSuQo-GE_X-2" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" value="Start" vertex="1">
+          <mxGeometry height="39" width="60" x="461" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Nfo_Sdc03utSuQo-GE_X-3" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="root == null?" vertex="1">
+          <mxGeometry height="143" width="143" x="419" y="539" as="geometry" />
+        </mxCell>
+        <mxCell id="Nfo_Sdc03utSuQo-GE_X-4" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" value="Return" vertex="1">
+          <mxGeometry height="39" width="72" x="374" y="763" as="geometry" />
+        </mxCell>
+        <mxCell id="Nfo_Sdc03utSuQo-GE_X-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Create Stack" vertex="1">
+          <mxGeometry height="54" width="151" x="496" y="756" as="geometry" />
+        </mxCell>
+        <mxCell id="Nfo_Sdc03utSuQo-GE_X-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Push root to stack" vertex="1">
+          <mxGeometry height="54" width="189" x="477" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="Nfo_Sdc03utSuQo-GE_X-7" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="Stack empty?" vertex="1">
+          <mxGeometry height="148" width="148" x="498" y="964" as="geometry" />
+        </mxCell>
+        <mxCell id="Nfo_Sdc03utSuQo-GE_X-8" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" value="Return" vertex="1">
+          <mxGeometry height="39" width="72" x="370" y="1194" as="geometry" />
+        </mxCell>
+        <mxCell id="Nfo_Sdc03utSuQo-GE_X-9" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Pop node" vertex="1">
+          <mxGeometry height="54" width="125" x="492" y="1186" as="geometry" />
+        </mxCell>
+        <mxCell id="Nfo_Sdc03utSuQo-GE_X-10" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Print node" vertex="1">
+          <mxGeometry height="54" width="134" x="488" y="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="Nfo_Sdc03utSuQo-GE_X-11" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="node.right != null?" vertex="1">
+          <mxGeometry height="185" width="185" x="462" y="1418" as="geometry" />
+        </mxCell>
+        <mxCell id="Nfo_Sdc03utSuQo-GE_X-12" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Push right" vertex="1">
+          <mxGeometry height="54" width="132" x="544" y="1678" as="geometry" />
+        </mxCell>
+        <mxCell id="Nfo_Sdc03utSuQo-GE_X-13" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;" value="node.left != null?" vertex="1">
+          <mxGeometry height="177" width="177" x="483" y="1782" as="geometry" />
+        </mxCell>
+        <mxCell id="Nfo_Sdc03utSuQo-GE_X-14" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Push left" vertex="1">
+          <mxGeometry height="54" width="123" x="644" y="2033" as="geometry" />
+        </mxCell>
+        <mxCell id="Nfo_Sdc03utSuQo-GE_X-15" edge="1" parent="1" source="Nfo_Sdc03utSuQo-GE_X-2" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Nfo_Sdc03utSuQo-GE_X-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nfo_Sdc03utSuQo-GE_X-16" edge="1" parent="1" source="Nfo_Sdc03utSuQo-GE_X-3" style="curved=1;startArrow=none;endArrow=block;exitX=0.13;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" target="Nfo_Sdc03utSuQo-GE_X-4" value="Yes">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="719" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nfo_Sdc03utSuQo-GE_X-17" edge="1" parent="1" source="Nfo_Sdc03utSuQo-GE_X-3" style="curved=1;startArrow=none;endArrow=block;exitX=0.87;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Nfo_Sdc03utSuQo-GE_X-5" value="No">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="572" y="719" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nfo_Sdc03utSuQo-GE_X-18" edge="1" parent="1" source="Nfo_Sdc03utSuQo-GE_X-5" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Nfo_Sdc03utSuQo-GE_X-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nfo_Sdc03utSuQo-GE_X-19" edge="1" parent="1" source="Nfo_Sdc03utSuQo-GE_X-6" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Nfo_Sdc03utSuQo-GE_X-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nfo_Sdc03utSuQo-GE_X-20" edge="1" parent="1" source="Nfo_Sdc03utSuQo-GE_X-7" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.84;entryX=0.5;entryY=-0.01;rounded=0;" target="Nfo_Sdc03utSuQo-GE_X-8" value="Yes">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="406" y="1149" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nfo_Sdc03utSuQo-GE_X-21" edge="1" parent="1" source="Nfo_Sdc03utSuQo-GE_X-7" style="curved=1;startArrow=none;endArrow=block;exitX=0.42;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Nfo_Sdc03utSuQo-GE_X-9" value="No">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="555" y="1149" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nfo_Sdc03utSuQo-GE_X-22" edge="1" parent="1" source="Nfo_Sdc03utSuQo-GE_X-9" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Nfo_Sdc03utSuQo-GE_X-10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nfo_Sdc03utSuQo-GE_X-23" edge="1" parent="1" source="Nfo_Sdc03utSuQo-GE_X-10" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Nfo_Sdc03utSuQo-GE_X-11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nfo_Sdc03utSuQo-GE_X-24" edge="1" parent="1" source="Nfo_Sdc03utSuQo-GE_X-11" style="curved=1;startArrow=none;endArrow=block;exitX=0.72;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" target="Nfo_Sdc03utSuQo-GE_X-12" value="Yes">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="1641" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nfo_Sdc03utSuQo-GE_X-25" edge="1" parent="1" source="Nfo_Sdc03utSuQo-GE_X-11" style="curved=1;startArrow=none;endArrow=block;exitX=0.29;exitY=1;entryX=0.18;entryY=0;rounded=0;" target="Nfo_Sdc03utSuQo-GE_X-13" value="No">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="1641" />
+              <mxPoint x="500" y="1757" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nfo_Sdc03utSuQo-GE_X-26" edge="1" parent="1" source="Nfo_Sdc03utSuQo-GE_X-12" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.67;entryY=0;rounded=0;" target="Nfo_Sdc03utSuQo-GE_X-13" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="610" y="1757" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nfo_Sdc03utSuQo-GE_X-27" edge="1" parent="1" source="Nfo_Sdc03utSuQo-GE_X-13" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.04;entryY=0;rounded=0;" target="Nfo_Sdc03utSuQo-GE_X-14" value="Yes">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="572" y="1996" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nfo_Sdc03utSuQo-GE_X-28" edge="1" parent="1" source="Nfo_Sdc03utSuQo-GE_X-13" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.13;entryX=1;entryY=0.87;rounded=0;" target="Nfo_Sdc03utSuQo-GE_X-7" value="No">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="724" y="1757" />
+              <mxPoint x="724" y="1149" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nfo_Sdc03utSuQo-GE_X-29" edge="1" parent="1" source="Nfo_Sdc03utSuQo-GE_X-14" style="curved=1;startArrow=none;endArrow=block;exitX=0.67;exitY=0;entryX=1;entryY=0.81;rounded=0;" target="Nfo_Sdc03utSuQo-GE_X-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="754" y="1996" />
+              <mxPoint x="754" y="1149" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
